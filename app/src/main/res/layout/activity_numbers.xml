@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69d7b1"
+    tools:context="com.abhishek.garagenearme.Numbers">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:text="Select Category:"
+        android:textColor="#a12a2a"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner6"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:entries="@array/numbers"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:text="Name:"
+        android:textColor="#a12a2a"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ed1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="16dp"
+
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:text="Number:"
+        android:textColor="#a12a2a"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ed2"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="16dp"
+
+        android:hint="number"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/numadd"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/numadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="94dp"
+        android:text="insert data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

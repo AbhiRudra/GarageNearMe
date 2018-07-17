@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GarageNearMe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="cities">
+        <item>Mahad</item>
+        <item>Lonere</item>
+        <item>Goregaon</item>
+        <item>Mangaon</item>
+        <item>Nijampur</item>
+    </array>
+
+    <array name="Services">
+        <item>Two Wheeler</item>
+        <item>Three Wheeler</item>
+        <item>Four Wheeler</item>
+        <item>2 and 4 Wheeler</item>
+    </array>
+
+    <array name="Category">
+        <item>Garage</item>
+        <item>Puncture</item>
+        <item>Spare Parts and Tyres</item>
+        <item>Towing Machine</item>
+        <item>Decorative Work</item>
+        <item>Showroom</item>
+        <item>Radium Arts</item>
+    </array>
+
+    <array name="numbers">
+        <item>RTO + Insurance</item>
+        <item>Insurance</item>
+        <item>RTO</item>
+        <item>Police Station</item>
+        <item>Orthopedic</item>
+    </array>
+
+
+</resources>

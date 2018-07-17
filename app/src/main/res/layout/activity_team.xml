@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#adecd9"
+    android:layout_height="match_parent"
+    tools:context="com.abhishek.garagenearme.Team">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ashish"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASHISH GURAV"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#af3d3d"
+            />
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8698675000"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:onClick="call1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="guravashish80@gmail.com"
+            android:onClick="mail1"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/suraj"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SURAJ HARABHARE"
+            android:textColor="#af3d3d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9422465358"
+            android:onClick="call2"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="surajharabhare1996@gmail.com"
+            android:onClick="mail2"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/prasad"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PRASAD kHAIRMODE"
+            android:textColor="#af3d3d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9158974316"
+            android:onClick="call3"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="prasadkhairmode96@gmail.com"
+            android:onClick="mail3"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vitthal"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VITTHAL GURDE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#af3d3d"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9764966774"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:onClick="call4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="sagar13055@gmail.com"
+            android:onClick="mail4"
+            /><TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.abhishek.garagenearme.Garage"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select City:"
+            android:textColor="#8f0c27"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cities"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Type:"
+            android:textColor="#8f0c27"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="83dp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Services"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category:"
+            android:textColor="#8f0c27"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Category"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="44dp" />
+        <EditText
+            android:id="@+id/garagename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="10dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <EditText
+            android:id="@+id/ownername"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Owner Name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="211dp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="273dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            tools:layout_editor_absoluteY="332dp" />
+
+
+        <EditText
+            android:id="@+id/additional"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Service details"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="388dp" />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert data"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+    </LinearLayout>
+</ScrollView>

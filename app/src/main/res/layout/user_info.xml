@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textgname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#a61e40"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:id="@+id/textoname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+
+    <TextView
+        android:id="@+id/textcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+
+    <TextView
+        android:id="@+id/textaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+
+    <TextView
+        android:id="@+id/textphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+
+    <TextView
+        android:id="@+id/textcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+
+    <TextView
+        android:id="@+id/textadditional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#131313"/>
+</LinearLayout>
